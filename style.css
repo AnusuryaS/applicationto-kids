@@ -97,16 +97,7 @@
   }
 } */
 
-body{
-  background-image: url("images/img.avif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font: 100% Lato, Arial, Sans Serif;
-	height: 100vh;
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
-}
+
 
 .collage{
   margin: 0px 90px;
