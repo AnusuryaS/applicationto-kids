@@ -176,10 +176,12 @@ function getRandomQuote () {
 
 //Function to select random rgb color value
 function getRandomColor () {
+	
 	var red = Math.floor(Math.random() * 256 );
-	var green = Math.floor(Math.random() * 256 );
+	//var green = Math.floor(Math.random() * 256 );
 	var blue = Math.floor(Math.random() * 256 );
-	 var randomColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+	var brown = Math.floor(Math.random() * 256 );
+	 var randomColor = 'rgb('  + red +  ',' + blue +',' + brown + ')';
 	return randomColor;
 }
 
